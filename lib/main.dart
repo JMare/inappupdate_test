@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Releases (v1.0)'),
+        title: Text('Releases (v1.1)'),
       ),
       body: FutureBuilder<List<Release>>(
         future: futureReleases,
